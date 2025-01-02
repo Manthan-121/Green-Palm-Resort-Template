@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Green Palm Resort</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-brand">
+            <span class="material-icons">eco</span>
+            <h1>Green Palm Resort</h1>
+        </div>
+        <div class="nav-toggle">
+            <span class="material-icons">menu</span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#rooms">Rooms</a></li>
+            <li><a href="#amenities">Amenities</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-slider">
+            <div class="slide active">
+                <img src="https://images.unsplash.com/photo-1571896349842-33c89424de2d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80" alt="Hotel View">
+                <div class="slide-content" data-aos="fade-up">
+                    <h1>Luxury Meets Nature</h1>
+                    <p>Experience tranquility in our eco-friendly resort</p>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80" alt="Pool View">
+                <div class="slide-content">
+                    <h1>Paradise Found</h1>
+                    <p>Immerse yourself in luxury and comfort</p>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="https://images.unsplash.com/photo-1566073771259-6a8506099945?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80" alt="Spa View">
+                <div class="slide-content">
+                    <h1>Relax & Rejuvenate</h1>
+                    <p>Your wellness journey begins here</p>
+                </div>
+            </div>
+        </div>
+        <div class="hero-controls">
+            <button class="prev-slide"><span class="material-icons">chevron_left</span></button>
+            <button class="next-slide"><span class="material-icons">chevron_right</span></button>
+        </div>
+        <div class="hero-dots"></div>
+        <div class="scroll-down">
+            <span class="material-icons">keyboard_arrow_down</span>
+            <p>Scroll to explore</p>
+        </div>
+        <div class="booking-widget">
+            <h3>Quick Booking</h3>
+            <form class="quick-book-form">
+                <div class="form-row">
+                    <div class="form-group">
+                        <span class="material-icons">event</span>
+                        <input type="date" required>
+                    </div>
+                    <div class="form-group">
+                        <span class="material-icons">event_busy</span>
+                        <input type="date" required>
+                    </div>
+                    <div class="form-group">
+                        <span class="material-icons">person</span>
+                        <select required>
+                            <option value="">Guests</option>
+                            <option value="1">1 Guest</option>
+                            <option value="2">2 Guests</option>
+                            <option value="3">3 Guests</option>
+                            <option value="4">4 Guests</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn-primary">Check Availability</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Booking Section -->
+    <section id="booking" class="booking-section">
+        <div class="booking-container" data-aos="fade-up">
+            <h2>Quick Reservation</h2>
+            <form class="booking-form">
+                <div class="form-group">
+                    <span class="material-icons">event</span>
+                    <input type="date" required>
+                </div>
+                <div class="form-group">
+                    <span class="material-icons">event_busy</span>
+                    <input type="date" required>
+                </div>
+                <div class="form-group">
+                    <span class="material-icons">person</span>
+                    <select required>
+                        <option value="">Guests</option>
+                        <option value="1">1 Guest</option>
+                        <option value="2">2 Guests</option>
+                        <option value="3">3 Guests</option>
+                        <option value="4">4 Guests</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn-primary">Check Availability</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Rooms Section -->
+    <section id="rooms" class="rooms-section">
+        <h2 class="section-title" data-aos="fade-up">Our Rooms</h2>
+        <div class="rooms-grid">
+            <div class="room-card" data-aos="fade-up">
+                <div class="room-image">
+                    <img src="https://images.unsplash.com/photo-1566665797739-1674de7a421a?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Luxury Suite">
+                    <div class="room-price">$299<span>/night</span></div>
+                </div>
+                <div class="room-details">
+                    <h3>Luxury Garden Suite</h3>
+                    <div class="room-features">
+                        <span><i class="material-icons">king_bed</i> King Bed</span>
+                        <span><i class="material-icons">panorama</i> Garden View</span>
+                        <span><i class="material-icons">wifi</i> Free WiFi</span>
+                    </div>
+                    <button class="btn-secondary">View Details</button>
+                </div>
+            </div>
+            <div class="room-card" data-aos="fade-up" data-aos-delay="100">
+                <div class="room-image">
+                    <img src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Premium Suite">
+                    <div class="room-price">$399<span>/night</span></div>
+                </div>
+                <div class="room-details">
+                    <h3>Premium Pool Suite</h3>
+                    <div class="room-features">
+                        <span><i class="material-icons">king_bed</i> King Bed</span>
+                        <span><i class="material-icons">pool</i> Private Pool</span>
+                        <span><i class="material-icons">room_service</i> Room Service</span>
+                    </div>
+                    <button class="btn-secondary">View Details</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Amenities Section -->
+    <section id="amenities" class="amenities-section">
+        <h2 class="section-title" data-aos="fade-up">Resort Amenities</h2>
+        <div class="amenities-grid">
+            <div class="amenity-card" data-aos="fade-up">
+                <span class="material-icons">pool</span>
+                <h3>Infinity Pool</h3>
+                <p>Swim in our stunning infinity pool overlooking lush gardens</p>
+            </div>
+            <div class="amenity-card" data-aos="fade-up" data-aos-delay="100">
+                <span class="material-icons">spa</span>
+                <h3>Luxury Spa</h3>
+                <p>Rejuvenate your body and soul with our spa treatments</p>
+            </div>
+            <div class="amenity-card" data-aos="fade-up" data-aos-delay="200">
+                <span class="material-icons">restaurant</span>
+                <h3>Fine Dining</h3>
+                <p>Experience exquisite cuisine at our restaurant</p>
+            </div>
+            <div class="amenity-card" data-aos="fade-up" data-aos-delay="300">
+                <span class="material-icons">fitness_center</span>
+                <h3>Fitness Center</h3>
+                <p>Stay fit in our state-of-the-art gym</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="contact-container">
+            <div class="contact-info" data-aos="fade-right">
+                <h2>Get in Touch</h2>
+                <div class="info-item">
+                    <span class="material-icons">location_on</span>
+                    <p>123 Palm Street, Tropical Paradise</p>
+                </div>
+                <div class="info-item">
+                    <span class="material-icons">phone</span>
+                    <p>+1 234 567 890</p>
+                </div>
+                <div class="info-item">
+                    <span class="material-icons">email</span>
+                    <p>info@greenpalm.com</p>
+                </div>
+                <div class="social-links">
+                    <a href="#" class="social-icon"><span class="material-icons">facebook</span></a>
+                    <a href="#" class="social-icon"><span class="material-icons">twitter</span></a>
+                    <a href="#" class="social-icon"><span class="material-icons">instagram</span></a>
+                </div>
+            </div>
+            <form class="contact-form" data-aos="fade-left">
+                <div class="form-group">
+                    <input type="text" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <textarea placeholder="Your Message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn-primary">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-top">
+            <div class="footer-info">
+                <div class="footer-brand">
+                    <span class="material-icons">eco</span>
+                    <h3>Green Palm Resort</h3>
+                </div>
+                <p class="footer-desc">Experience luxury and tranquility in our eco-friendly resort, where nature meets comfort.</p>
+                <div class="footer-social">
+                    <a href="#" class="social-link"><i class="material-icons">facebook</i></a>
+                    <a href="#" class="social-link"><i class="material-icons">photo_camera</i></a>
+                    <a href="#" class="social-link"><i class="material-icons">alternate_email</i></a>
+                    <a href="#" class="social-link"><i class="material-icons">phone</i></a>
+                </div>
+            </div>
+            
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#rooms">Our Rooms</a></li>
+                    <li><a href="#amenities">Amenities</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-contact">
+                <h4>Contact Info</h4>
+                <div class="contact-item">
+                    <i class="material-icons">location_on</i>
+                    <p>123 Palm Street, Tropical Paradise</p>
+                </div>
+                <div class="contact-item">
+                    <i class="material-icons">phone</i>
+                    <p>+1 234 567 890</p>
+                </div>
+                <div class="contact-item">
+                    <i class="material-icons">email</i>
+                    <p>info@greenpalm.com</p>
+                </div>
+            </div>
+            
+            <div class="footer-newsletter">
+                <h4>Newsletter</h4>
+                <p>Subscribe to our newsletter for special offers and updates</p>
+                <form class="newsletter-form">
+                    <div class="form-group">
+                        <input type="email" placeholder="Enter your email" required>
+                        <button type="submit" class="btn-subscribe">
+                            <i class="material-icons">send</i>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <div class="footer-wave">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                    <path fill="#f0f4c3" fill-opacity="0.1" d="M0,96L48,112C96,128,192,160,288,160C384,160,480,128,576,112C672,96,768,96,864,112C960,128,1056,160,1152,160C1248,160,1344,128,1392,112L1440,96L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path>
+                </svg>
+            </div>
+            <div class="footer-bottom-content">
+                <div class="footer-bottom-info">
+                    <div class="copyright">
+                        <p>&copy; <span id="current-year">2024</span> Green Palm Resort</p>
+                        <!-- <p>Crafted with Burhani Designer for luxury living</p> -->
+                    </div>
+                    <div class="footer-bottom-links">
+                        <a href="#"><i class="material-icons">gavel</i> Terms</a>
+                        <a href="#"><i class="material-icons">privacy_tip</i> Privacy</a>
+                        <a href="#"><i class="material-icons">security</i> Security</a>
+                        <a href="#"><i class="material-icons">help</i> Support</a>
+                    </div>
+                </div>
+                <div class="footer-bottom-extra">
+                    <div class="payment-methods">
+                        <span>We Accept:</span>
+                        <i class="material-icons">credit_card</i>
+                        <i class="material-icons">payment</i>
+                        <i class="material-icons">account_balance</i>
+                    </div>
+                    <div class="language-selector">
+                        <i class="material-icons">language</i>
+                        <select>
+                            <option value="en">English</option>
+                            <option value="es">Español</option>
+                            <option value="fr">Français</option>
+                            <option value="de">Deutsch</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
