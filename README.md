@@ -20,7 +20,7 @@ Welcome to the **Green Palm Resort Template**, a one-page, fully responsive webs
 ## Author
 
 **Manthan Mistry**    
-manthanmistry0121@outlook.com 
+sondagarmanthan121@gmail.com
 
 ---
 
